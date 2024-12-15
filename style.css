@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    height: 80vh;
+    width: auto;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.blue{
+    color:#0057e7;
+}
+
+.red{
+    color:#d62d20;
+}
+
+#green{
+    color:#008744;
+}
+
+#yellow{
+    color:#ffa700;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:100px;
+    margin-bottom:30px;
+    color:#333;
+}
+
+#search-bar{
+    width: 1000px; 
+    margin:10px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    height: 32px;
+}
+
+input{
+    font-size:32px;
+}
+
+#search-bar[type="text"]{
+    padding: 10px 0px 10px 30px;
+}
+
+#search-btn{
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-left:30px;
+    height: 32px;
+    background-color: #0056b3
+}
+
+#options{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    height:20vh;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    padding: 0px 20px;
+    font-size: 24px;
+}
+
+
+
+a:hover{
+    color: #0056b3;
+}

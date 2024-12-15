@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="options">
+            <a href="imgsearch.html">Image Search</a>
+            <a href="advanced.html">Advanced Search</a>
+        </div>
+            <div class="display">
+                <h1 class="blue">S</h1><h1 class="red">E</h1><h1 id="yellow">A</h1><h1 class="blue">R</h1><h1 id="green">C</h1><h1 class="red">H</h1>
+            </div>
+            <form action="https://www.google.com/search">
+                <input id="search-bar" type="text" name="q">
+                <div>
+                    <input id="search-btn" type="submit" value="Google Search" style="height: 57px;">
+                    <a onclick="window.location.href='https://www.google.com/search?q=' + encodeURIComponent(document.querySelector('[name=q]').value) + '&btnI=I';"><input id="search-btn" type="button" value="I'm Feeling Lucky" style="height: 57px;"></a>
+                </div>
+            </form>
+    </body>
+</html>
